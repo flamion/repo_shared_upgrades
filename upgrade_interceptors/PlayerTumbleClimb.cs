@@ -12,7 +12,7 @@ public class PlayerTumbleClimb
         foreach (var player in SemiFunc.PlayerGetAll())
         {
             PunManager.instance.UpgradePlayerTumbleClimb(SemiFunc.PlayerGetSteamID(player));
-            shared_upgrades.Logger.LogInfo($"Player Tumble Climb added to player {SemiFunc.PlayerGetName(player)}");
+            shared_upgrades.Logger.LogInfo($"Player Tumble Climb Upgrade added to player {SemiFunc.PlayerGetName(player)}");
         }
 
         return false; // Prevent the original function also adding an upgrade

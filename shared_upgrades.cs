@@ -30,17 +30,10 @@ public class shared_upgrades : BaseUnityPlugin
     {
         Harmony ??= new Harmony(Info.Metadata.GUID);
         Harmony.PatchAll();
-
-
     }
 
     internal void Unpatch()
     {
         Harmony?.UnpatchSelf();
-    }
-
-    private void Update()
-    {
-        // Code that runs every frame goes here
     }
 }
