@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace shared_upgrades;
 
-[BepInPlugin("flamion.shared_upgrades", "shared_upgrades", "1.0")]
+[BepInPlugin("flamion.shared_upgrades", "shared_upgrades", "1.0.2")]
 public class shared_upgrades : BaseUnityPlugin
 {
     internal static shared_upgrades Instance { get; private set; } = null!;
